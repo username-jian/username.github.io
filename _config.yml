@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "CuriousDose"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "김지"
+name                     : "Kim Jian"
 description              : "An online science journal that explores the latest trends in science and technology with clarity and depth."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -114,11 +114,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Kim Jian"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Taking One Dose of Curiousity Everyday"
+  location         : "HAFS"
+  email            : "022094@hafs.hs.kr"
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
     - label: "Email"
