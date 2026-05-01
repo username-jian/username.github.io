@@ -10,15 +10,3 @@
 .feed-subscribe {
   display: none !important;
 }
-
----
----
-
-@import "minima";
-
-/* 사이트 제목 굵게 */
-.site-title, 
-.site-title:visited, 
-.site-title a {
-  font-weight: 700 !important;
-}
