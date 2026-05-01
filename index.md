@@ -1,7 +1,7 @@
 ---
 layout: home
-title: CuriousDose
 ---
 
-Hello! This is CuriousDose, Kim Jian's science blog.
-I plan to upload articles that explain various scientific fields, such as physics, chemistry, life science, and earth science, in an easy-to-understand way!
+# CuriousDose
+
+최신 과학 트렌드를 가장 빠르게 전달하는 블로그입니다.
