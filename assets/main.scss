@@ -4,5 +4,5 @@
 @import "minima";
 
 .page-heading {
-  font-weight: 700;  /* 굵게 */
+  font-weight: 700 !important;   /* 굵게 강제 적용 */
 }
