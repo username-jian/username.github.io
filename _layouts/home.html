@@ -2,22 +2,12 @@
 layout: default
 ---
 
-<div class="home">
-  <h1 class="page-heading">Posts</h1>
+<h1 class="page-heading">Posts</h1>
 
-  {{ content }}
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title }}
-          </a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="post-cards">
+  {% for post in site.posts %}
+    <a class="post-card" href="{{ post.url | relative_url }}">
+      <h2 class="post-title">{{ post.title }}</h2>
+    </a>
+  {% endfor %}
 </div>
