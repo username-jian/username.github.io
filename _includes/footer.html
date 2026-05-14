@@ -7,23 +7,25 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
+
           <li class="p-name">
-            {{ site.author.name | escape }}
+            <strong>{{ site.author.name | escape }}</strong>
           </li>
 
           {% if site.author.location %}
           <li class="p-location">
-            {{ site.author.location }}
+            <strong>{{ site.author.location }}</strong>
           </li>
           {% endif %}
 
           {% if site.author.email %}
           <li>
             <a class="u-email" href="mailto:{{ site.author.email }}">
-              {{ site.author.email }}
+              <strong>{{ site.author.email }}</strong>
             </a>
           </li>
           {% endif %}
+
         </ul>
       </div>
 
