@@ -2,7 +2,18 @@
 layout: default
 ---
 
-<div class="home">
+<div class="sidebar">
+  <h2>{{ Kim Jian }}</h2>
+  <p>{{ Taking One Dose of Curiosity Everyday }}</p>
+
+  <ul class="sidebar-info">
+    <li>📍 {{ HAFS }}</li>
+    <li>✉️ {{ 022094@hafs.hs.kr }}</li>
+  </ul>
+</div>
+
+<div class="content-with-sidebar">
+
   <h1 class="page-heading">Posts</h1>
 
   {{ content }}
@@ -11,29 +22,13 @@ layout: default
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title }}
+          </a>
         </h2>
       </li>
     {% endfor %}
   </ul>
 
-</div>
-
----
-layout: default
----
-
-<div class="sidebar">
-  <h2>{{ site.author.name }}</h2>
-  <p>{{ site.author.tagline }}</p>
-
-  <ul class="sidebar-info">
-    <li>📍 {{HAFS}}</li>
-  </ul>
-</div>
-
-<div class="content-with-sidebar">
-  {{ content }}
 </div>
