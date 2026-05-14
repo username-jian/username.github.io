@@ -20,3 +20,21 @@ layout: default
   </ul>
 
 </div>
+
+---
+layout: default
+---
+
+<div class="sidebar">
+  <h2>{{ site.author.name }}</h2>
+  <p>{{ site.author.tagline }}</p>
+
+  <ul class="sidebar-info">
+    <li>📍 {{ site.author.affiliation }}</li>
+    <li>✉️ <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+  </ul>
+</div>
+
+<div class="content-with-sidebar">
+  {{ content }}
+</div>
