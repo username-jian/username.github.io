@@ -2,12 +2,24 @@
 layout: default
 ---
 
-<h1 class="page-heading">Posts</h1>
+<div class="home">
+  <h1 class="page-heading">Posts</h1>
 
-<div class="post-cards">
-  {% for post in site.posts %}
-    <a class="post-card" href="{{ post.url | relative_url }}">
-      <h2 class="post-title">{{ post.title }}</h2>
-    </a>
-  {% endfor %}
+  <div class="post-cards">
+    {% for post in site.posts %}
+      <a class="post-card" href="{{ post.url | relative_url }}">
+        
+        {% if post.image %}
+          <img class="post-thumb" src="{{ post.image }}" alt="thumbnail">
+        {% endif %}
+        
+        <h2 class="post-title">{{ post.title }}</h2>
+        
+        {% if post.excerpt %}
+          <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 80 }}</p>
+        {% endif %}
+
+      </a>
+    {% endfor %}
+  </div>
 </div>
