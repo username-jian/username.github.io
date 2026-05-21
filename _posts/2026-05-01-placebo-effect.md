@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "약물효과 믿는만큼 효과 있어"
+categories: [수행평가]
 date: 2026-05-01
 ---
 
