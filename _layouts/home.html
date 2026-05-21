@@ -5,6 +5,15 @@ layout: default
 <div class="home">
   <h1 class="page-heading">Posts</h1>
 
+  <!-- 카테고리 메뉴 -->
+  <div class="category-list">
+    <a href="{{ '/' | relative_url }}">전체</a>
+    <a href="{{ '/categories/club' | relative_url }}">동아리</a>
+    <a href="{{ '/categories/research' | relative_url }}">개인탐구</a>
+    <a href="{{ '/categories/task' | relative_url }}">수행평가</a>
+  </div>
+
+  <!-- 포스트 카드 리스트 -->
   <div class="post-cards">
     {% for post in site.posts %}
       <a class="post-card" href="{{ post.url | relative_url }}">
@@ -22,10 +31,4 @@ layout: default
       </a>
     {% endfor %}
   </div>
-</div>
-<div class="category-list">
-  <a href="{{ site.baseurl }}/">All</a>
-  <a href="{{ site.baseurl }}/categories/#동아리">동아리</a>
-  <a href="{{ site.baseurl }}/categories/#개인탐구">개인탐구</a>
-  <a href="{{ site.baseurl }}/categories/#수행평가">수행평가</a>
 </div>
