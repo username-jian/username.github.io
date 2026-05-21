@@ -12,3 +12,9 @@ author:
   tagline: "Taking One Dose of Curiosity Everyday"
   location: "HAFS"
   email: "022094@hafs.hs.kr"
+
+header_pages:
+  - index.md
+  - categories/research.md
+  - categories/task.md
+  - categories/club.md
