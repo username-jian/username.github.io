@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "같은 항암제인데 왜 사람마다 효과가 다를까"
+categories: [개인탐구]
 date: 2026-05-01
 ---
 
