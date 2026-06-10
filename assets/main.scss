@@ -111,3 +111,17 @@ body {
 .post-excerpt {
   color: var(--text) !important;
 }
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode .post-card {
+  background-color: #1f1f1f;
+  border-color: #444;
+}
+
+.dark-mode a {
+  color: #7db8ff;
+}
