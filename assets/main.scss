@@ -86,3 +86,28 @@
   color: #666;
   font-size: 0.9rem;
 }
+/* ----- 다크모드 ----- */
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+}
+
+[data-theme="dark"] {
+  --bg: #1e1e1e;
+  --text: #ffffff;
+}
+
+body {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+.post-card {
+  background: var(--bg);
+  border-color: #444;
+}
+
+.post-title,
+.post-excerpt {
+  color: var(--text) !important;
+}
